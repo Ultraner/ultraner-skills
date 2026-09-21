@@ -1,12 +1,15 @@
 ---
-name: ultraner-payouts
-description: Get money out of Ultraner, and the difference between settlement and disbursement.
-version: 1.0.0
-api_version: v1
-sdks: @ultraner/node@0.2.0, @ultraner/mcp@0.3.0
-frameworks: any
-last_updated: 2026-09-20
-source: https://ultraner.com/ai/skills/ultraner-payouts
+name: "ultraner-payouts"
+description: "Get money out of Ultraner, and the difference between settlement and disbursement."
+version: "1.0.0"
+api_version: "v1"
+sdks:
+  - "@ultraner/node@0.2.0"
+  - "@ultraner/mcp@0.3.0"
+frameworks:
+  - "any"
+last_updated: "2026-09-20"
+source: "https://ultraner.com/ai/skills/ultraner-payouts"
 ---
 # Paying money out with Ultraner
 

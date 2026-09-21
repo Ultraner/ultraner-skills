@@ -1,12 +1,15 @@
 ---
-name: ultraner-payments
-description: Charge an African mobile-money wallet, correctly, including the amount unit and the asynchronous result.
-version: 1.0.0
-api_version: v1
-sdks: @ultraner/node@0.2.0, @ultraner/mcp@0.3.0
-frameworks: any
-last_updated: 2026-09-20
-source: https://ultraner.com/ai/skills/ultraner-payments
+name: "ultraner-payments"
+description: "Charge an African mobile-money wallet, correctly, including the amount unit and the asynchronous result."
+version: "1.0.0"
+api_version: "v1"
+sdks:
+  - "@ultraner/node@0.2.0"
+  - "@ultraner/mcp@0.3.0"
+frameworks:
+  - "any"
+last_updated: "2026-09-20"
+source: "https://ultraner.com/ai/skills/ultraner-payments"
 ---
 # Accepting payments with Ultraner
 

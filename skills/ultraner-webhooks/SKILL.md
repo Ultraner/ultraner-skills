@@ -1,12 +1,16 @@
 ---
-name: ultraner-webhooks
-description: Receive and verify Ultraner webhooks, including the raw-body trap.
-version: 1.0.0
-api_version: v1
-sdks: @ultraner/node@0.2.0, @ultraner/mcp@0.3.0
-frameworks: express, next.js
-last_updated: 2026-09-20
-source: https://ultraner.com/ai/skills/ultraner-webhooks
+name: "ultraner-webhooks"
+description: "Receive and verify Ultraner webhooks, including the raw-body trap."
+version: "1.0.0"
+api_version: "v1"
+sdks:
+  - "@ultraner/node@0.2.0"
+  - "@ultraner/mcp@0.3.0"
+frameworks:
+  - "express"
+  - "next.js"
+last_updated: "2026-09-20"
+source: "https://ultraner.com/ai/skills/ultraner-webhooks"
 ---
 # Receiving Ultraner webhooks
 
