@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "generated": "2026-09-20",
+    "note": "Instruction packs for coding agents. Each declares the API and SDK versions it was written against; check them before following it."
+  },
+  "skills": [
+    {
+      "name": "ultraner-payments",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "sdks": {
+        "@ultraner/node": "0.2.0",
+        "@ultraner/mcp": "0.3.0"
+      },
+      "frameworks": [],
+      "lastUpdated": "2026-09-20",
+      "summary": "Charge an African mobile-money wallet, correctly, including the amount unit and the asynchronous result.",
+      "url": "https://ultraner.com/ai/skills/ultraner-payments"
+    },
+    {
+      "name": "ultraner-payouts",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "sdks": {
+        "@ultraner/node": "0.2.0",
+        "@ultraner/mcp": "0.3.0"
+      },
+      "frameworks": [],
+      "lastUpdated": "2026-09-20",
+      "summary": "Get money out of Ultraner, and the difference between settlement and disbursement.",
+      "url": "https://ultraner.com/ai/skills/ultraner-payouts"
+    },
+    {
+      "name": "ultraner-webhooks",
+      "version": "1.0.0",
+      "apiVersion": "v1",
+      "sdks": {
+        "@ultraner/node": "0.2.0",
+        "@ultraner/mcp": "0.3.0"
+      },
+      "frameworks": [
+        "express",
+        "next.js"
+      ],
+      "lastUpdated": "2026-09-20",
+      "summary": "Receive and verify Ultraner webhooks, including the raw-body trap.",
+      "url": "https://ultraner.com/ai/skills/ultraner-webhooks"
+    }
+  ]
+}
