@@ -67,10 +67,18 @@ curl https://api.ultraner.com/v1/settlements/quote \
   -d '{ "amount": 1000000, "currency": "TZS" }'
 ```
 
-The quote tells you what leaves the balance, the FX rate, the wire fee, what
-lands and when. Statuses follow Stripe's: `pending`, `in_transit`, `paid`,
-`failed`, `canceled`, with a webhook on each. A person reviews the wire
-before it leaves, because a wire cannot be recalled.
+The quote tells you what leaves the balance, the FX rate, the transfer fee,
+what lands and when.
+
+Settlement costs 3% into a United States bank account and 4% anywhere else.
+Ultraner banks in the US, so any other country is money crossing a border: the
+same 3%, plus 1% for the international transfer, quoted in the currency the
+money arrives in rather than in dollars. Settling to a mobile wallet is always
+the 4%, because there is no US mobile money rail for it to stay inside.
+
+Statuses follow Stripe's: `pending`, `in_transit`, `paid`, `failed`,
+`canceled`, with a webhook on each. A person reviews the wire before it
+leaves, because a wire cannot be recalled.
 
 ## Authenticating
 
